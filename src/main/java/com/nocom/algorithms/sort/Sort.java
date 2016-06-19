@@ -1,7 +1,5 @@
 package com.nocom.algorithms.sort;
 
-import java.util.Arrays;
-
 /**
  * Created by fraj on 6/19/16 at 11:45 PM.
  */
@@ -35,13 +33,6 @@ public class Sort {
             quickSort(numbers, 0, partitionIndex - 1);
             quickSort(numbers, partitionIndex + 1, last);
         }
-    }
-
-    public static void main(String[] args) {
-        int[] numbers = {5, 4, 3, 2, 1, 1, 2313123, 213, 123, 12, 313};
-        int[] numbersClone = numbers.clone();
-        quickSort(numbers, 0, numbers.length - 1);
-        assert Arrays.equals(numbersClone, numbers);
     }
 }
 
