@@ -7,8 +7,6 @@ import java.util.List;
  * Created by fraj on 6/19/16 at 9:53 PM.
  */
 public class AdjacencyListGraph {
-
-    private static int INFINITY = Integer.MAX_VALUE;
     private int numberOfVerticies, sourceVertex;
     private List<List<Pair<Integer, Integer>>> adjacencyList = new ArrayList<>();
 
