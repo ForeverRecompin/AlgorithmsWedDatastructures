@@ -25,7 +25,6 @@ public class FirstKElements {
                 int length = position - firstIndex + 1;
                 if (numberToFind == length) {
                     firstKSmallestElements.add(numbers[position]);
-//                    elementsFound += 1;
                     break innerloop;
                 } else if (numberToFind < length) {
                     lastIndex = position - 1;
